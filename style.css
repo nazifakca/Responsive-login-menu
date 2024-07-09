@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    background-color: #223631;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginForm{
+    width: 420px; 
+    height: 450px; 
+    margin: auto;
+    background: #fff;
+    border-radius: 25px; 
+    box-shadow: 0 0 100px black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 36px;
+    margin: 0 0 25px 0;
+    display: inline-block;
+    position: relative;
+}
+
+.inputArea{
+    width: 100%;
+    font-size: 20px;
+}
+
+.inputArea input{
+    width: 250px; 
+    height: 45px; 
+    color: #000;
+    border: none;
+    border-bottom: 2px solid #282A35;
+    margin-left: 10px;
+    outline: unset;
+}
+
+.inputArea #pass{
+    margin-top: 10px;
+}
+
+#submit{
+    width: 250px;
+    height: 35px;
+    color: #fff;
+    background-color: #282A35;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submit:active{
+    background-color: #363846;
+}
+
+#form a{
+    color: #282A35;
+}
+
+#form a:hover{
+    text-decoration: underline;
+}
+
+i{
+    color: #282A35;
+}
+
+.loginForm span, a{
+    font-size: 15px;
+    line-height: 3rem;
+    color: rgb(140, 140, 140);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .title{
+        font-size: 30px;
+    }
+
+    .loginForm{
+        width: 320px;
+        height: 370px;
+    }
+  }
